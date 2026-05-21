@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>About Spotlight</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background-color:#0f0f0f;
+            color:white;
+        }
+
+        /* NAVBAR */
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+
+            padding:20px 50px;
+
+            background-color:black;
+        }
+
+        .logo{
+            color:cyan;
+            font-size:30px;
+            font-weight:bold;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:cyan;
+        }
+
+        /* HERO SECTION */
+
+        .hero{
+
+            height:80vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            text-align:center;
+
+            padding:20px;
+
+            background:
+            linear-gradient(rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+            url("spotlight.jpg");
+
+            background-size:cover;
+            background-position:center;
+        }
+
+        .hero-content{
+            width:700px;
+        }
+
+        .hero h1{
+            font-size:60px;
+            color:cyan;
+
+            text-shadow:0 0 20px cyan;
+        }
+
+        .hero p{
+            font-size:22px;
+            line-height:1.6;
+            color:lightgray;
+        }
+
+        button{
+
+            padding:12px 25px;
+
+            border:none;
+
+            border-radius:30px;
+
+            margin-top:20px;
+
+            cursor:pointer;
+
+            font-size:16px;
+
+            background-color:cyan;
+
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.1);
+            box-shadow:0 0 15px cyan;
+        }
+
+        /* SECTIONS */
+
+        section{
+            padding:70px 50px;
+        }
+
+        section h2{
+            color:cyan;
+            font-size:40px;
+            margin-bottom:20px;
+        }
+
+        section p{
+            font-size:20px;
+            line-height:1.8;
+            color:lightgray;
+        }
+
+        /* FEATURES */
+
+        .features{
+
+            display:flex;
+
+            justify-content:center;
+
+            gap:30px;
+
+            flex-wrap:wrap;
+
+            margin-top:40px;
+        }
+
+        .feature-box{
+
+            background-color:#1a1a1a;
+
+            width:280px;
+
+            padding:25px;
+
+            border-radius:20px;
+
+            transition:0.3s;
+        }
+
+        .feature-box:hover{
+
+            transform:translateY(-10px);
+
+            box-shadow:0 0 20px cyan;
+        }
+
+        .feature-box h3{
+            color:white;
+        }
+
+        .feature-box p{
+            font-size:17px;
+        }
+
+        /* FOOTER */
+
+        footer{
+
+            text-align:center;
+
+            padding:30px;
+
+            background-color:black;
+
+            color:gray;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">🎤 Spotlight</div>
+
+        <div>
+            <a href="">Home</a>
+            <a href="">About us </a>
+            <a href="">Features</a>
+            
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <div class="hero">
+
+        <div class="hero-content">
+
+            <h1>Speak With Confidence</h1>
+
+            <p>
+                Spotlight helps people overcome the fear of public speaking
+                through fun speaking missions, real-world practice,
+                and interactive communication challenges.
+            </p>
+
+            <button>Start Your Journey</button>
+
+        </div>
+
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <section>
+
+        <h2>About Spotlight</h2>
+
+        <p>
+            Spotlight is a communication training app designed to help users
+            build confidence when speaking in public. Many people struggle
+            with stage fright, nervousness, or anxiety during presentations.Spotlight transforms the learning process into a fun and engaging
+            experience similar to Duolingo.
+        </p>
+
+    </section>
+
+    <!-- HOW IT WORKS -->
+
+    <section>
+
+        <h2>How It Works</h2>
+
+        <p>
+            Users complete daily speaking missions and challenges.
+            The app gradually increases difficulty levels to improve
+            confidence step by step.
+        </p>
+
+        <p>
+            Users can also invite friends through invitation links
+            and practice together in speaking rooms and communication exercises.
+        </p>
+
+    </section>
+
+    <!-- FEATURES -->
+
+    <section>
+
+        <h2>Features</h2>
+
+        <div class="features">
+
+            <div class="feature-box">
+
+                <h3>🎯 Daily Missions</h3>
+
+                <p>
+                    Complete interactive speaking challenges every day.
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <h3>👥 Practice Together</h3>
+
+                <p>
+                    Train with friends using invitation links and live practice.
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <h3>🏆 Level System</h3>
+
+                <p>
+                    Unlock new speaking levels and improve gradually.
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <h3>🎤 Real-Life Exercises</h3>
+
+                <p>
+                    Practice interviews, speeches, debates, and presentations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- AIM SECTION -->
+
+    <section>
+
+        <h2>Our Aim</h2>
+
+        <p>
+            Our mission is to help people become confident communicators.
+            Spotlight aims to remove fear, build self-esteem,
+            and make public speaking a skill anyone can master.
+        </p>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 Spotlight App — Speak Boldly.
+
+    </footer>
+
+</body>
+
+</html>
